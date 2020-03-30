@@ -27,16 +27,16 @@ public class Insta_search {
             String[] words = stg.split( "\n" );
 
               if( instawork.get( 0 ).getText().equalsIgnoreCase( "https://www.instawork.com"  )) {
-                  System.out.println( "instawork appears in first  postion in google search suggestion" );}
+                  System.out.println( "https://www.instawork.com appears in first  postion in google search suggestion" );}
               else {
-                  System.out.println( "instawork is not in  first  position in google search suggestion" );
+                  System.out.println( "ihttps://www.instawork.com is not in  first  position in google search suggestion" );
               }
 
                 for (int j = 0; j <= words.length - 1; j++) {
 //				if(words[i].equalsIgnoreCase("https://www.instawork.com"))
 //					System.out.println("instawork appears in " +i+1+"postion in our site");
                     if (words[j].equalsIgnoreCase( "https://www.instawork.com" ))
-                        System.out.println( "instawork appears " + (j + 1) + "th postion in google search suggestion" );
+                        System.out.println( "https://www.instawork.com appears " + (j + 1) + "th postion in google search suggestion" );
 
 
                 }
